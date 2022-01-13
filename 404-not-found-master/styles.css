@@ -1,15 +1,71 @@
-img {
-  position: absolute;
+.container img {
   height: 447.4263916015625px;
   width: 539.2236938476562px;
-  left: 77px;
-  top: 265px;
 }
 
 body {
   position: relative;
   width: 1440px;
   height: 1080px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+.content {
+  margin: 0 100px;
+}
+
+.body-heading {
+  width: 586px;
+  height: 190px;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  /* Gray 1 */
+
+  color: #333333;
+}
+
+.body-text {
+  width: 381px;
+  height: 108px;
+  font-family: "Space Mono", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+button {
+  width: 216px;
+  height: 68px;
+  background: #333333;
+
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 .title {
@@ -28,68 +84,6 @@ body {
   text-transform: uppercase;
 
   color: #333333;
-}
-
-.body-heading {
-  position: absolute;
-  width: 586px;
-  height: 190px;
-  left: 735px;
-  top: 265px;
-
-  font-family: "Space Mono", monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 95px;
-  letter-spacing: -0.035em;
-
-  /* Gray 1 */
-
-  color: #333333;
-}
-
-.body-text {
-  position: absolute;
-  width: 381px;
-  height: 108px;
-  left: 736px;
-  top: 491px;
-
-  font-family: "Space Mono", monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.035em;
-
-  /* Gray 2 */
-
-  color: #4f4f4f;
-}
-
-button {
-  position: absolute;
-  width: 216px;
-  height: 68px;
-  left: 740px;
-  top: 663px;
-
-  /* Gray 1 */
-
-  background: #333333;
-
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 21px;
-  /* identical to box height */
-
-  letter-spacing: -0.035em;
-  text-transform: uppercase;
-
-  color: #ffffff;
 }
 
 footer {
